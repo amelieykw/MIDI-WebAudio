@@ -5,14 +5,33 @@
     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="import" href="./bower_components/polymer/polymer.html">
     <link rel="import" href="webaudio-controls.html">
+    <link rel="stylesheet" type="text/css" href="webaudio.css">
 </head>
 <body>
-
-    <webaudio-knob src="img/LittlePhatty.png" sprites="100" min="0" max="100"></webaudio-knob>
-    <webaudio-slider src="img/hsliderbody.png"></webaudio-slider>
-    <webaudio-switch src="img/switch_toggle.png" width="32" height="32"></webaudio-switch>  
-    <webaudio-param src="" link="knob-1"></webaudio-param>
-    <webaudio-keyboard keys="25"></webaudio-keyboard>
-
+    <div id="mainBack">
+        <!-- knob -->
+        <webaudio-knob id="knob01" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob02" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob03" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob04" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob05" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob06" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob07" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob08" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob09" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <webaudio-knob id="knob10" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <!-- slider -->
+        <webaudio-slider id="slider01" class="slider" src="img/vsliderbody.png" knobsrc="img/vsliderknob.png" height="190"></webaudio-slider>
+        <webaudio-slider id="slider02" class="slider" src="img/vsliderbody.png" knobsrc="img/vsliderknob.png" height="190"></webaudio-slider>
+        <!-- param -->
+        <webaudio-param id="param01" class="param" src="" link="slider01"></webaudio-param>
+        <webaudio-param id="param02" class="param" src="" link="slider02"></webaudio-param>
+        <!-- switch -->
+        <webaudio-switch id="switch01" class="switch" src="img/switch_toggle.png" width="60" height="60"></webaudio-switch> 
+        <webaudio-switch id="switch02" class="switch" src="img/switch_toggle.png" width="60" height="60"></webaudio-switch> 
+        <!-- keyboard -->
+        <webaudio-keyboard class="keyboard" keys="55" width="800"></webaudio-keyboard>
+    </div>
+    
 </body>
 </html>

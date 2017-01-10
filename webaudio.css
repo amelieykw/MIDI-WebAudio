@@ -1,0 +1,88 @@
+div#mainBack {
+    background-color: darkgrey;
+    height: 400px;
+    width: 800px;
+    position: relative;
+}
+.knob {
+    position: absolute;
+}
+#knob01 {
+    top: 20px;
+    left: 50px;
+}
+#knob02 {
+    top: 20px;
+    left: 150px;
+}
+#knob03 {
+    top: 20px;
+    left: 250px;
+}
+#knob04 {
+    top: 20px;
+    left: 350px;
+}
+#knob05 {
+    top: 20px;
+    left: 450px;
+}
+#knob06 {
+    top: 140px;
+    left: 50px;
+}
+#knob07 {
+    top: 140px;
+    left: 150px;
+}
+#knob08 {
+    top: 140px;
+    left: 250px;
+}
+#knob09 {
+    top: 140px;
+    left: 350px;
+}
+#knob10 {
+    top: 140px;
+    left: 450px;
+}
+.slider {
+    position: absolute;
+}
+#slider01 {
+    top: 20px;
+    right: 100px;
+}
+#slider02 {
+    top: 20px;
+    right: 40px;
+}
+.param {
+    background-color: black;
+    position: absolute;
+}
+#param01 {
+    top: 220px;
+    right: 95px;
+}
+#param02 {
+    top: 220px;
+    right: 35px;
+}
+.switch {
+    position: absolute;
+}
+#switch01 {
+    top: 70px;
+    right: 160px;
+}
+#switch02 {
+    top: 140px;
+    right: 160px;
+}
+.keyboard {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
