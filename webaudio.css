@@ -1,7 +1,7 @@
 div#mainBack {
     background-color: darkgrey;
-    height: 400px;
-    width: 800px;
+    height: 500px;
+    width: 1100px;
     position: relative;
 }
 .knob {
@@ -28,34 +28,58 @@ div#mainBack {
     left: 450px;
 }
 #knob06 {
-    top: 140px;
-    left: 50px;
+    top: 20px;
+    left: 550px;
 }
 #knob07 {
-    top: 140px;
-    left: 150px;
+    top: 20px;
+    left: 650px;
 }
 #knob08 {
-    top: 140px;
-    left: 250px;
+    top: 20px;
+    left: 750px;
 }
 #knob09 {
-    top: 140px;
-    left: 350px;
+    top: 180px;
+    left: 50px;
 }
 #knob10 {
-    top: 140px;
+    top: 180px;
+    left: 150px;
+}
+#knob11 {
+    top: 180px;
+    left: 250px;
+}
+#knob12 {
+    top: 180px;
+    left: 350px;
+}
+#knob13 {
+    top: 180px;
     left: 450px;
+}
+#knob14 {
+    top: 180px;
+    left: 550px;
+}
+#knob15 {
+    top: 180px;
+    left: 650px;
+}
+#knob16 {
+    top: 180px;
+    left: 750px;
 }
 .slider {
     position: absolute;
 }
 #slider01 {
-    top: 20px;
+    top: 60px;
     right: 100px;
 }
 #slider02 {
-    top: 20px;
+    top: 60px;
     right: 40px;
 }
 .param {
@@ -63,26 +87,67 @@ div#mainBack {
     position: absolute;
 }
 #param01 {
-    top: 220px;
+    top: 260px;
     right: 95px;
 }
 #param02 {
-    top: 220px;
+    top: 260px;
     right: 35px;
 }
 .switch {
     position: absolute;
 }
 #switch01 {
-    top: 70px;
+    top: 90px;
     right: 160px;
 }
 #switch02 {
-    top: 140px;
+    top: 180px;
     right: 160px;
 }
-.keyboard {
+#keyboard {
     position: absolute;
     bottom: 0px;
     right: 0px;
+}
+.number-for-knobs {
+    position:absolute;
+    top:140px;
+    font-size: 20px;
+    color: beige;
+}
+#arrows-right-left {
+    position: absolute;
+    top: 15px;
+    right: 93px;
+    color: beige;
+    font-size: 40px;
+}
+#arrows-up-down {
+    position: absolute;
+    top: 0px;
+    right: 43px;
+    color: beige;
+    font-size: 40px;
+}
+#template {
+    position: absolute;
+    top: 70px;
+    right: 160px;
+    color: crimson;
+    font: 30px;
+}
+#template-user {
+    position: absolute;
+    top: 145px;
+    right: 173px;
+    color: crimson;
+    font: 30px;
+}
+#template-factory {
+    position: absolute;
+    top: 240px;
+    right: 163px;
+    color: crimson;
+    font: 30px;
 }

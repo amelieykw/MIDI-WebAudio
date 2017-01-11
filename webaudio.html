@@ -9,17 +9,24 @@
 </head>
 <body>
     <div id="mainBack">
-        <!-- knob -->
-        <webaudio-knob id="knob01" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob02" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob03" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob04" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob05" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob06" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob07" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob08" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob09" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
-        <webaudio-knob id="knob10" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" width="100" height="100"></webaudio-knob>
+        <!-- up knob group -->
+        <webaudio-knob id="knob01" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob02" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob03" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob04" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob05" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob06" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob07" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob08" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <!-- down knob group -->
+        <webaudio-knob id="knob09" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob10" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob11" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob12" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob13" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob14" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob15" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
+        <webaudio-knob id="knob16" class="knob" src="img/LittlePhatty.png" sprites="100" min="0" max="100" diameter="100"></webaudio-knob>
         <!-- slider -->
         <webaudio-slider id="slider01" class="slider" src="img/vsliderbody.png" knobsrc="img/vsliderknob.png" height="190"></webaudio-slider>
         <webaudio-slider id="slider02" class="slider" src="img/vsliderbody.png" knobsrc="img/vsliderknob.png" height="190"></webaudio-slider>
@@ -30,8 +37,60 @@
         <webaudio-switch id="switch01" class="switch" src="img/switch_toggle.png" width="60" height="60"></webaudio-switch> 
         <webaudio-switch id="switch02" class="switch" src="img/switch_toggle.png" width="60" height="60"></webaudio-switch> 
         <!-- keyboard -->
-        <webaudio-keyboard class="keyboard" keys="55" width="800"></webaudio-keyboard>
+        <webaudio-keyboard id="keyboard" keys="55" width="1100" height="180"></webaudio-keyboard>
+        
+        <!-- number for knob -->
+        <span class="number-for-knobs" id="number01" style="left:95px;">1</span>
+        <span class="number-for-knobs" id="number02" style="left:195px;">2</span>
+        <span class="number-for-knobs" id="number03" style="left:295px;">3</span>
+        <span class="number-for-knobs" id="number04" style="left:395px;">4</span>
+        <span class="number-for-knobs" id="number05" style="left:495px;">5</span>
+        <span class="number-for-knobs" id="number06" style="left:595px;">6</span>
+        <span class="number-for-knobs" id="number07" style="left:695px;">7</span>
+        <span class="number-for-knobs" id="number08" style="left:795px;">8</span>
+        <!-- arrows for sliders -->
+        <span id="arrows-right-left">&#8596;</span>
+        <span id="arrows-up-down">&#8597;</span>
+        <!-- Template -->
+        <span id="template">Template</span>
+        <span id="template-user">User</span>
+        <span id="template-factory">Factory</span> 
     </div>
-    
+    <script>
+        // knobs
+        var knobs = document.getElementsByTagName('webaudio-knob');
+        for (var i = 0; i < knobs.length; i++) {
+          var knob = knobs[i];
+          knob.addEventListener('change', change);
+        }
+        // sliders
+        var sliders = document.getElementsByTagName('webaudio-slider');
+        for (var i = 0; i < sliders.length; i++) {
+          var slider = sliders[i];
+          slider.addEventListener('change', change);
+        }
+        // switchs
+        var switchs = document.getElementsByTagName('webaudio-switch');
+        for (var i = 0; i < switchs.length; i++) {
+          var switcher = switchs[i];
+          switcher.addEventListener('change', change);
+        }
+        // keys
+        var keyboard = document.getElementById("keyboard");
+        keyboard.addEventListener('change',changeKeyboard);
+        
+        // function for knobs/sliders/switchs
+        function change(e) {
+            var str = e.type + " => " + e.target.id + " [ " + e.target.value + " ] ";
+            console.log(str);
+        }
+        // function for keys
+        function changeKeyboard(e) {
+            if(e.note[0])
+                console.log("Note-On:"+e.note[1]);
+            else
+                console.log("Note-Off:"+e.note[1]);
+        }
+    </script>
 </body>
 </html>
