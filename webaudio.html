@@ -3,11 +3,8 @@
 <head>
     <title>Web Audio Project</title>
     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-<<<<<<< HEAD
     <script src="bower_components/WebMidi/src/webmidi.js"></script>
     <script src="webaudio.js"></script>
-=======
->>>>>>> f4d922327a045bd10a6b8ba6eaed982cde62579f
     <link rel="import" href="./bower_components/polymer/polymer.html">
     <link rel="import" href="webaudio-controls.html">
     <link rel="stylesheet" type="text/css" href="webaudio.css">
@@ -61,47 +58,5 @@
         <span id="template-user">User</span>
         <span id="template-factory">Factory</span> 
     </div>
-<<<<<<< HEAD
-    <div id="midi-data">
-        <ul></ul>
-    </div>
-=======
-    <script>
-        // knobs
-        var knobs = document.getElementsByTagName('webaudio-knob');
-        for (var i = 0; i < knobs.length; i++) {
-          var knob = knobs[i];
-          knob.addEventListener('change', change);
-        }
-        // sliders
-        var sliders = document.getElementsByTagName('webaudio-slider');
-        for (var i = 0; i < sliders.length; i++) {
-          var slider = sliders[i];
-          slider.addEventListener('change', change);
-        }
-        // switchs
-        var switchs = document.getElementsByTagName('webaudio-switch');
-        for (var i = 0; i < switchs.length; i++) {
-          var switcher = switchs[i];
-          switcher.addEventListener('change', change);
-        }
-        // keys
-        var keyboard = document.getElementById("keyboard");
-        keyboard.addEventListener('change',changeKeyboard);
-        
-        // function for knobs/sliders/switchs
-        function change(e) {
-            var str = e.type + " => " + e.target.id + " [ " + e.target.value + " ] ";
-            console.log(str);
-        }
-        // function for keys
-        function changeKeyboard(e) {
-            if(e.note[0])
-                console.log("Note-On:"+e.note[1]);
-            else
-                console.log("Note-Off:"+e.note[1]);
-        }
-    </script>
->>>>>>> f4d922327a045bd10a6b8ba6eaed982cde62579f
 </body>
 </html>
